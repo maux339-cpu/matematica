@@ -26,6 +26,8 @@ Entregar **matemática séria** aplicada a **cibersegurança e criptografia** co
 | Modular, DLP, RSA math | `skills/number-theory-crypto` |
 | ECC, secp256k1, modular forms | `skills/elliptic-curves-crypto` |
 | Lattices, LWE, NIST PQC | `skills/lattices-pqc` |
+| Quantum, Shor, Grover, migração PQC wallets | `skills/quantum-pqc-wallets` |
+| Auditoria de wallet/plataforma (RNG, BIP-39, nonces) | `skills/wallet-audit-math` |
 | Sage/PARI/fpylll hands-on | `skills/sage-toolkit` |
 | Ataques algébricos, estimators | `skills/cryptanalysis-math` |
 | Lean, proofs formales | `skills/formal-crypto` |

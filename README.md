@@ -22,6 +22,8 @@ matematica/
 │   ├── number-theory-crypto/         # Z/nZ, DLP, factoring
 │   ├── elliptic-curves-crypto/       # ECDLP, secp256k1, modular forms
 │   ├── lattices-pqc/                 # CVP/SVP/LWE, NIST PQC
+│   ├── quantum-pqc-wallets/          # Shor/Grover, FIPS 203-205, Q-Day wallets
+│   ├── wallet-audit-math/            # checklist audit RNG/BIP-39/nonces/platforms
 │   ├── sage-toolkit/                 # Sage/PARI/fpylll workflows
 │   ├── cryptanalysis-math/           # algebraic attacks, estimators
 │   └── formal-crypto/                # Lean / formal verification

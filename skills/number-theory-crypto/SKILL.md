@@ -27,11 +27,13 @@ description: Teoria dos números e álgebra para criptografia clássica (RSA, DL
 ## Labs seguros
 
 ```sage
-# SageMath
-Zmod(17).multiplicative_group_is_cyclic()
+# SageMath — use gerador real (2 NÃO é gerador completo mod 17)
+print(Zmod(17).multiplicative_group_is_cyclic())
 R = Integers(17)
-discrete_log(R(3), R(2))  # dlog base 2 de 3 mod 17
-factor(2^61-1)
+g = R.multiplicative_generator()   # mod 17 → 3
+alvo = g**7
+k = discrete_log(alvo, g)          # deve ser 7
+factor(2^61 - 1)                  # Mersenne; pode ser primo
 ```
 
 ## Ferramentas

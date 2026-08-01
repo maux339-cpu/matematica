@@ -13,10 +13,12 @@ Usuário não sabe o nível ou pede “matemática pra crypto/cyber” genérico
 
 1. **Base** (modular, groups) → number-theory-crypto  
 2. **ECC / Bitcoin / TLS** → elliptic-curves-crypto  
-3. **PQC / quantum** → lattices-pqc  
-4. **Código / lab** → sage-toolkit  
-5. **Quebrar schemes em lab/CTF** → cryptanalysis-math  
-6. **Proofs / formal** → formal-crypto  
+3. **Lattices / NIST algos** → lattices-pqc  
+4. **Quantum / Shor / migração wallets** → quantum-pqc-wallets  
+5. **Auditoria de wallet/plataforma** → wallet-audit-math  
+6. **Código / lab Sage** → sage-toolkit  
+7. **Quebrar schemes em lab/CTF** → cryptanalysis-math  
+8. **Proofs / formal** → formal-crypto  
 
 ## Currículo default (ordem)
 
